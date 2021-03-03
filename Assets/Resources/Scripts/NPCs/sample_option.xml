@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sample_option>
+	<ID>sample_option</ID>
+	<FirstC>sample1</FirstC>
+	<sample1>
+		<Name>Gyeol</Name>
+		<Wait>0</Wait>
+		<Type>C</Type>
+		<Content>This Conversation has Options for question.</Content>
+		<CanExit>false</CanExit>
+		<Next_C_ID>sample2</Next_C_ID>
+	</sample1>
+	<sample2>
+		<Name>Gyeol</Name>
+		<Wait>0</Wait>
+		<Type>O</Type>
+		<Content>What do you want?</Content>
+		<CanExit>false</CanExit>
+		<Options>nothing::something</Options>
+		<Option_C_ID>sample2_n::sample2_s</Option_C_ID>
+	</sample2>
+	<sample2_n>
+		<Name>Gyeol</Name>
+		<Wait>0</Wait>
+		<Type>C</Type>
+		<Content>Conversation Out.</Content>
+		<CanExit>true</CanExit>
+	</sample2_n>
+	<sample2_s>
+		<Name>Gyeol</Name>
+		<Wait>0</Wait>
+		<Type>C</Type>
+		<Content>Something Happen</Content>
+		<CanExit>true</CanExit>
+	</sample2_s>
+</sample_option>

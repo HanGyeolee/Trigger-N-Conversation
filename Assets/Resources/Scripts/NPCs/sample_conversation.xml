@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sample_conversation>
+	<ID>sample_conversation</ID>
+	<FirstC>sample1</FirstC>
+	<sample1>
+		<Name>Gyeol</Name>
+		<Wait>0</Wait>
+		<Type>C</Type>
+		<Content>Hello. This is Just Conversation.</Content>
+		<CanExit>false</CanExit>
+		<Next_C_ID>sample2</Next_C_ID>
+	</sample1>
+	<sample2>
+		<Name>Gyeol</Name>
+		<Wait>0</Wait>
+		<Type>C</Type>
+		<Content>This can be finished when CanExit Button checked.</Content>
+		<CanExit>true</CanExit>
+	</sample2>
+</sample_conversation>
