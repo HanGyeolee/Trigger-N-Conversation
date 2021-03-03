@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     {
         var g = GameObject.FindWithTag("GameController");
 
-        if (g == null)
+        if (g == null) 
             Instantiate(EventSystem);
     }
 }
